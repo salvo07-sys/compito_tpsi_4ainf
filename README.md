@@ -27,8 +27,8 @@ Realizzare un programma scritto in linguaggio C così composto:
    ! Esci
    ```
    terminata l'operazione e stampato il risultato il programma deve tornare a mostrare il menu' ed aspettare nuovi comandi. Si termini il programma usando la voce di menu' `!`
-8. Richiamare la macro `TRACE()` nella prima riga di ogni funzione (compreso il main) solo se la macro `DEBUG` è definita. Definire la macro `DEBUG` attraverso l'opzione `-DDEBUG` a tempo di compilazione [0.5]
-9. Definire all'interno del main (come variabili globali) i seguenti vettori che conterranno lo storico delle operazioni (+ - / * ^) degli operandi e dei risultati (l'elmento i-esimo di ogni vettore conterrà rispettivamente gli operandi l'operazione ed il risultato dell'i-esima iterazione del programma) [0.25]
+8. Richiamare la macro `TRACE()` nella prima riga di ogni funzione (compreso il main) solo se la macro `DEBUG` è definita. Definire la macro `DEBUG` attraverso l'opzione `-DDEBUG` a tempo di compilazione [0.5 pt]
+9. Definire all'interno del main (come variabili globali) i seguenti vettori che conterranno lo storico delle operazioni (+ - / * ^) degli operandi e dei risultati (l'elmento i-esimo di ogni vettore conterrà rispettivamente gli operandi l'operazione ed il risultato dell'i-esima iterazione del programma) [0.25 pt]
     ```c
     #define BUF 10
 
