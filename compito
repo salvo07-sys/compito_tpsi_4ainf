@@ -1,0 +1,58 @@
+#include "math.h"
+#include "trace.h"
+
+int somma (int a,int b) {
+    TRACE();
+    return a + b;
+}
+
+int differenza(int a, int b); {
+    TRACE();
+    return a - b;
+}
+
+int moltiplicazione(int a, int b); {
+    TRACE();
+    return a * b;
+}
+
+float divisione(float a, float b);{
+      TRACE();
+      if (b!=0){
+          return a/b;
+      } else {
+          printf("errore:divisione per zero.\n");
+          return 0.0
+      }
+}
+      int potenza(int base, int esponente)
+{
+    TRACE():
+    int risultato =1;
+    for (int i=0; i < esponente; i++) {
+        risultato *=base;
+    }
+    return risultato
+}
+
+    printf("dammi il nome del file");
+    scanf(_FILE_:"stampa il nome del file"(%s) );
+    printf("dammi il numero di righe");
+    scanf(_FILE_"stampa il numero di righe"(%d) );
+    printf("stampa il nome della funzione");
+    scanf(_FILE_"stampa il nome della funzione"(%s) );
+
+    {
+        case '1'
+
+        risultato = somma(n1,n2);
+        printf("&d + %d=%d", n1, n2, risultato);
+
+        break;
+
+         case '2'
+
+         risultato = diff(n1,n2);
+         printf("%d - %d = %d", n1, n2, risultato);
+         
+    }
